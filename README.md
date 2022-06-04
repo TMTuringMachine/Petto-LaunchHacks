@@ -3,7 +3,7 @@ Directly login into admin using the following credentials
  - Email: admin@gmail.com
  - Password: admin
  
- Note - Please open admin portal at ```/login``` in Private window to avoid any problems related authorization!
+ Note - Please open admin portal at ```/login``` in Private window to avoid any problems related to authorization!
 
 ## 💡 Inspiration
 Leaving your pets behind when you go for a little trip can be stressful, and we may even consider cancelling our plans. APP_NAME is here to solve this problem by allowing you to leave your pets with some of the top hosts in your area while you relax and enjoy your trip! 
@@ -35,7 +35,7 @@ Pets can be anyone, a Dog, cat, as well as plants
 
 
 ## 🧠 Challenges we ran into
-- Making this Project under two days while keeping the time difference from PST to IST in mind.
+- Making this Project under two days while keeping the time difference from PDT to IST in mind.
 - Some of us did not have much experience in the back end. We collaborated and helped each other get up to speed. We managed to get most features working.
 - Making the schema of the project was a challenge. We had to make the schema of the project in a way that was easy to understand and maintain.
 - Building different portals for different users was a challenge. We had to make the portal for Pet Owners, Pet Care Takers and Admin.
