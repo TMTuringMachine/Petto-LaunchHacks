@@ -19,9 +19,9 @@ Pets can be anyone, a Dog, cat, as well as plants
 
 ## 💥 Impact of our Project
 
-- Environmental Impact:  Helps environment by taking care of plants and animals.
-- Social Impact: Pet lovers can connect to people in help.
-- Economical Impact: Gives part-time employment to pet lovers to do the work they always loved to do.
+- <ins>Environmental Impact</ins>:  Helps environment by taking care of plants and animals.
+- <ins>Social Impact</ins>: Pet lovers can connect to people in help.
+- <ins>Economical Impact</ins>: Gives part-time employment to pet lovers to do the work they always loved to do.
 
 ## ⚙️ How we built it
 
