@@ -1,0 +1,25 @@
+{
+  "name": "petscape_codebreak3.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd server && npm run nodemon",
+    "frontend": "cd client && npm run start",
+    "dev": "concurrently -c \"bgMagenta,bgBlue,\" npm:server npm:frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TMTuringMachine/PetsCape_CodeBreak3.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TMTuringMachine/PetsCape_CodeBreak3.0/issues"
+  },
+  "homepage": "https://github.com/TMTuringMachine/PetsCape_CodeBreak3.0#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
