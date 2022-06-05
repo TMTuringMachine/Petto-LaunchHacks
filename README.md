@@ -32,6 +32,8 @@ Pets can be anyone, a Dog, cat, as well as plants
 - Cloudinary: For storing Images
 - RazorPay: For online payment facility
 - ChakraUI and Framer Motion: For UI and animation
+## 🔁 Flow of User
+<img style="width:28rem;" src="https://user-images.githubusercontent.com/73652194/172038631-8aa82c53-e68c-4579-90c2-a53cc4e384bb.png"/>
 
 
 ## 🧠 Challenges we ran into
