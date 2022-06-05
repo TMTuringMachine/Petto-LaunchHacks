@@ -36,7 +36,7 @@ const HostVerify = () => {
     }
   }, []);
   const showPosition = (val) => {
-    console.log("position");
+    console.log("here position");
     console.log(val.coords);
     setData({
       ...data,
@@ -51,7 +51,7 @@ const HostVerify = () => {
     animal: false,
     plant: false,
   });
-  const [hostImages,setHostImages] = useState([]);
+  const [hostImages, setHostImages] = useState([]);
 
   const handleCheck = (e, name) => {
     setTypeData({ ...typeData, [name]: e.target.checked });
@@ -71,7 +71,7 @@ const HostVerify = () => {
         if (!error && result && result.event === "success") {
           console.log(result.info);
           console.log(result.info.url);
-          setHostImages(images => [...images,result.info.url]);
+          setHostImages((images) => [...images, result.info.url]);
           return result.info.url;
         }
       }
@@ -233,7 +233,9 @@ const HostVerify = () => {
         />
         <Flex alignItems="center" gap="20px">
           <Text>Add nice images of you taking care of a pet:</Text>
-          <CustomButton simple onClick={hostImagesHandler}>UPLOAD</CustomButton>
+          <CustomButton simple onClick={hostImagesHandler}>
+            UPLOAD
+          </CustomButton>
         </Flex>
         <Flex justifyContent="center" alignItems="center" w="50%" mt="2rem">
           <CustomButton
