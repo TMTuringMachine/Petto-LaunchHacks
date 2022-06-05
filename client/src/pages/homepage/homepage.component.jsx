@@ -46,9 +46,8 @@ const Homepage = () => {
   useEffect(() => {
     getAllHosts().then((res) => {
       setHosts(res);
-
     });
-    getNearbyHosts(18.500601, 73.984230).then((res) => {
+    getNearbyHosts(18.500601, 73.98423).then((res) => {
       setNearByHosts(res);
     });
     if (navigator.geolocation) {
@@ -57,10 +56,10 @@ const Homepage = () => {
     } else {
     }
   }, []);
-  useEffect(()=>{
-      setNearByHosts(nearByHosts.sort((a,b)=>a.ans-b.ans));
-  },[nearByHosts]);
-  console.log(nearByHosts)
+  useEffect(() => {
+    setNearByHosts(nearByHosts.sort((a, b) => a.ans - b.ans));
+  }, [nearByHosts]);
+  console.log(nearByHosts);
   const showPosition = (val) => {
     console.log("position");
     console.log(val.coords);
@@ -71,7 +70,7 @@ const Homepage = () => {
       <HomeImage url="https://images.unsplash.com/photo-1581888227599-779811939961?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" />
       <Box padding="20px" width="90%">
         <Text fontSize="2em" margin="10px 0 20px 0">
-          Select your interest
+          Select your Interest
         </Text>
         <Flex direction="row" width="100%" justifyContent="space-between">
           <ImageButton
@@ -85,7 +84,7 @@ const Homepage = () => {
           <ImageButton
             url="https://images.unsplash.com/photo-1601985705806-5b9a71f6004f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
             onClick={() => {
-              navigate("/hosts/plants");
+              navigate("/hosts/plants/");
             }}
           >
             Plants
@@ -111,7 +110,7 @@ const Homepage = () => {
             <Text fontSize="2em" margin="10px 0 20px 0">
               Our top care takers
             </Text>
-            <Text>VIEW ALL</Text>
+            <Text>view all</Text>
           </Flex>
           <Flex justifyContent="space-between">
             {hosts.slice(0, 5).map((host) => (
