@@ -7,7 +7,9 @@ Directly login into admin using the following credentials
  - Email: admin@gmail.com
  - Password: admin
  
- Note - Please open admin portal at ```/login``` in Private window to avoid any problems related to authorization!
+ Note - 
+ * Please open admin portal at ```/login``` in Private window to avoid any problems related to authorization!
+ * Please accept while Petto ask for location grant, it shows you Pet Care Takers around you!
 ## 💡 Inspiration
 Leaving your pets behind when you go for a little trip can be stressful, and we may even consider cancelling our plans. Petto is here to solve this problem by allowing you to leave your pets with some of the top hosts in your area while you relax and enjoy your trip! 
 Pets can be anyone, a Dog, cat, as well as plants
